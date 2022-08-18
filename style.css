@@ -79,3 +79,28 @@ footer{
         margin-top: 60%;
     }
 }
+#preloader{
+    top:0%;
+    background: #000 url(images/preloader.gif) no-repeat center;
+    height: 100vh;
+    width: 102%;
+    position:fixed;
+    z-index:100;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .pretext{
+    margin-top:30%;
+    margin-left: 10px;
+    color:rgba(238, 255, 0, 0.893);
+    font-size: 1.5rem;
+    font-family: 'Staatliches', cursive;
+    animation: glowww infinite 2s;
+  }
+  @keyframes glowww{
+    20%{
+      text-shadow:0px 0px 15px  rgb(251, 255, 0);
+      transform:scale(1.02);
+    }
+  }
