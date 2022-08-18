@@ -78,6 +78,14 @@ footer{
     .boxes{
         margin-top: 60%;
     }
+    footer{
+   
+        color:aliceblue;
+        position: fixed;
+        left: 20%;
+        bottom: 10px;
+        text-align: center;
+    }
 }
 #preloader{
     top:0%;
